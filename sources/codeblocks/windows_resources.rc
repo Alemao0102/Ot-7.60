@@ -1,0 +1,31 @@
+#include <windows.h>
+
+#include "../gui_resources.rc"
+
+A ICON MOVEABLE PURE LOADONCALL DISCARDABLE "../TheOTXServer.ico"
+
+1 VERSIONINFO
+FILEVERSION 2,3,0,0
+PRODUCTVERSION 2,3,0,0
+FILETYPE VFT_APP
+{
+  BLOCK "StringFileInfo"
+	 {
+		 BLOCK "040904E2"
+		 {
+			 VALUE "CompanyName", ""
+			 VALUE "FileVersion", "2.3"
+			 VALUE "FileDescription", "The OTX Server"
+			 VALUE "InternalName", "To Light"
+			 VALUE "LegalCopyright", ""
+			 VALUE "LegalTrademarks", ""
+			 VALUE "OriginalFilename", "The OTX Server.exe"
+			 VALUE "ProductName", "The OTX Server"
+			 VALUE "ProductVersion", "2.3"
+		 }
+	 }
+  BLOCK "VarFileInfo"
+	 {
+		 VALUE "Translation", 0x080A, 1250
+	 }
+}

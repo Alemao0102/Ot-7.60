@@ -1,0 +1,879 @@
+# depslib dependency file v1.0
+1041394206 source:e:\proyecto 9.61\ot bolivia 9.61\sources\player.cpp
+	"otpch.h"
+	<iostream>
+	"player.h"
+	"manager.h"
+	"iologindata.h"
+	"ioban.h"
+	"town.h"
+	"house.h"
+	"beds.h"
+	"mounts.h"
+	"quests.h"
+	"combat.h"
+	"movement.h"
+	"weapons.h"
+	"creatureevent.h"
+	"configmanager.h"
+	"game.h"
+	"chat.h"
+	"textlogger.h"
+	"gui.h"
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\otpch.h
+	<winerror.h>
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	<libxml/threads.h>
+	<boost/config.hpp>
+	<boost/function.hpp>
+	<boost/bind.hpp>
+	<boost/regex.hpp>
+	"configmanager.h"
+	"thing.h"
+	"gui.h"
+	"inputbox.h"
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\configmanager.h
+	"luascript.h"
+
+1344642421 e:\proyecto 9.61\ot bolivia 9.61\sources\luascript.h
+	"otsystem.h"
+	<lua5.1/lua.h>
+	<lua5.1/lauxlib.h>
+	<lua5.1/lualib.h>
+	<lua.h>
+	<lauxlib.h>
+	<lualib.h>
+	<luajit.h>
+	"database.h"
+	"position.h"
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\otsystem.h
+	"definitions.h"
+	<string>
+	<algorithm>
+	<bitset>
+	<queue>
+	<set>
+	<vector>
+	<list>
+	<map>
+	<limits>
+	<boost/utility.hpp>
+	<boost/asio.hpp>
+	<boost/thread.hpp>
+	<boost/foreach.hpp>
+	<boost/shared_ptr.hpp>
+	<boost/algorithm/string/predicate.hpp>
+	<cstddef>
+	<cstdlib>
+	<cstdint>
+	<stdint.h>
+	<ctime>
+	<cassert>
+	<windows.h>
+	<sys/timeb.h>
+	<sys/timeb.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<unistd.h>
+	<netdb.h>
+	<errno.h>
+	<arpa/inet.h>
+	<netinet/in.h>
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\definitions.h
+	<cstring>
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\database.h
+	"otsystem.h"
+	"enums.h"
+	<sstream>
+	"databasemysql.h"
+	"databasemysqlpp.h"
+	"databasesqlite.h"
+	"databasepgsql.h"
+
+1345007855 e:\proyecto 9.61\ot bolivia 9.61\sources\enums.h
+	<string>
+	<list>
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\databasemysql.h
+	<mysql.h>
+	<mysql/mysql.h>
+	<winsock2.h>
+	<sstream>
+	<map>
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\databasemysqlpp.h
+	<mysql_driver.h>
+	<mysql_connection.h>
+	<cppconn/resultset.h>
+	<cppconn/exception.h>
+	<cppconn/statement.h>
+	<sstream>
+	<map>
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\databasesqlite.h
+	<sqlite3.h>
+	<sstream>
+	<map>
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\databasepgsql.h
+	"libpq-fe.h"
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\position.h
+	<stdlib.h>
+	<cmath>
+	<iostream>
+	<vector>
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\thing.h
+	"position.h"
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\gui.h
+	"definitions.h"
+	"resources.h"
+	"playerbox.h"
+
+1436916506 e:\proyecto 9.61\ot bolivia 9.61\sources\resources.h
+	"definitions.h"
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\playerbox.h
+	"otsystem.h"
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\inputbox.h
+	"otsystem.h"
+	<tchar.h>
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\player.h
+	"otsystem.h"
+	"enums.h"
+	"creature.h"
+	"cylinder.h"
+	"container.h"
+	"depot.h"
+	"outfit.h"
+	"vocation.h"
+	"group.h"
+	"protocolgame.h"
+	"ioguild.h"
+	"party.h"
+	"npc.h"
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\creature.h
+	"otsystem.h"
+	"templates.h"
+	<boost/any.hpp>
+	"const.h"
+	"enums.h"
+	"map.h"
+	"condition.h"
+	"creatureevent.h"
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\templates.h
+	"otsystem.h"
+
+1344642421 e:\proyecto 9.61\ot bolivia 9.61\sources\const.h
+	"definitions.h"
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\map.h
+	"tools.h"
+	"fileloader.h"
+	"position.h"
+	"waypoints.h"
+	"tile.h"
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\tools.h
+	"otsystem.h"
+	"enums.h"
+	"const.h"
+	<libxml/parser.h>
+	<boost/tokenizer.hpp>
+	"position.h"
+
+1342578068 e:\proyecto 9.61\ot bolivia 9.61\sources\fileloader.h
+	"otsystem.h"
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\waypoints.h
+	"otsystem.h"
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\tile.h
+	<boost/shared_ptr.hpp>
+	"cylinder.h"
+	"item.h"
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\cylinder.h
+	"otsystem.h"
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\item.h
+	"otsystem.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"thing.h"
+	"itemattributes.h"
+	"items.h"
+	"raids.h"
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\itemattributes.h
+	"otsystem.h"
+	<boost/any.hpp>
+
+1345007855 e:\proyecto 9.61\ot bolivia 9.61\sources\items.h
+	"otsystem.h"
+	"itemloader.h"
+	"const.h"
+	"enums.h"
+	"position.h"
+	<libxml/parser.h>
+
+1344642421 e:\proyecto 9.61\ot bolivia 9.61\sources\itemloader.h
+	"fileloader.h"
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\raids.h
+	"otsystem.h"
+	"const.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"baseevents.h"
+	"position.h"
+	"tools.h"
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\baseevents.h
+	"otsystem.h"
+	"luascript.h"
+	<libxml/parser.h>
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\condition.h
+	"otsystem.h"
+	"const.h"
+	"enums.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"fileloader.h"
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\creatureevent.h
+	"enums.h"
+	"baseevents.h"
+	"tile.h"
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\container.h
+	"otsystem.h"
+	"cylinder.h"
+	"item.h"
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\depot.h
+	"container.h"
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\outfit.h
+	"otsystem.h"
+	"enums.h"
+	"const.h"
+	"tools.h"
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\vocation.h
+	"otsystem.h"
+	"enums.h"
+	"const.h"
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\group.h
+	"otsystem.h"
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\protocolgame.h
+	"otsystem.h"
+	"enums.h"
+	"protocol.h"
+	"creature.h"
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\protocol.h
+	"otsystem.h"
+	"connection.h"
+
+1342578068 e:\proyecto 9.61\ot bolivia 9.61\sources\connection.h
+	"otsystem.h"
+	"networkmessage.h"
+	<boost/utility.hpp>
+	<boost/enable_shared_from_this.hpp>
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\networkmessage.h
+	"otsystem.h"
+	"const.h"
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\ioguild.h
+	"otsystem.h"
+	"enums.h"
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\party.h
+	"player.h"
+
+1344642421 e:\proyecto 9.61\ot bolivia 9.61\sources\npc.h
+	"templates.h"
+	"const.h"
+	"creature.h"
+	"luascript.h"
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\manager.h
+	"otsystem.h"
+	"const.h"
+	"textlogger.h"
+	"protocol.h"
+	"luascript.h"
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\textlogger.h
+	"otsystem.h"
+	<ostream>
+	<fstream>
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\iologindata.h
+	"otsystem.h"
+	"database.h"
+	"creature.h"
+	"player.h"
+	"account.h"
+	"group.h"
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\account.h
+	"otsystem.h"
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\ioban.h
+	"otsystem.h"
+	"enums.h"
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\town.h
+	"otsystem.h"
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\house.h
+	"otsystem.h"
+	<boost/regex.hpp>
+	<tr1/unordered_set>
+	<boost/tr1/unordered_set.hpp>
+	"position.h"
+	"housetile.h"
+	"player.h"
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\housetile.h
+	"tile.h"
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\beds.h
+	"item.h"
+
+1342578068 e:\proyecto 9.61\ot bolivia 9.61\sources\mounts.h
+	"otsystem.h"
+	"networkmessage.h"
+	"player.h"
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\quests.h
+	"otsystem.h"
+	"networkmessage.h"
+	"player.h"
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\combat.h
+	"otsystem.h"
+	"baseevents.h"
+	"condition.h"
+	"map.h"
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\movement.h
+	"baseevents.h"
+	"creature.h"
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\weapons.h
+	"otsystem.h"
+	"const.h"
+	"combat.h"
+	"baseevents.h"
+	"luascript.h"
+	"player.h"
+	"item.h"
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\game.h
+	"otsystem.h"
+	"enums.h"
+	"templates.h"
+	"server.h"
+	"scheduler.h"
+	"map.h"
+	"spawn.h"
+	"item.h"
+	"player.h"
+	"npc.h"
+	"monster.h"
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\server.h
+	"otsystem.h"
+	"connection.h"
+	<boost/enable_shared_from_this.hpp>
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\scheduler.h
+	"otsystem.h"
+	"dispatcher.h"
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\dispatcher.h
+	"otsystem.h"
+	<boost/function.hpp>
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\spawn.h
+	"otsystem.h"
+	"templates.h"
+	"position.h"
+	"tile.h"
+	"monster.h"
+
+1345007855 e:\proyecto 9.61\ot bolivia 9.61\sources\monster.h
+	"otsystem.h"
+	"monsters.h"
+	"raids.h"
+	"tile.h"
+
+1345007855 e:\proyecto 9.61\ot bolivia 9.61\sources\monsters.h
+	"otsystem.h"
+	"creature.h"
+
+1341872177 e:\proyecto 9.61\ot bolivia 9.61\sources\chat.h
+	"otsystem.h"
+	<fstream>
+	"const.h"
+	"party.h"
+
+1393783326 source:e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\actions.cpp
+	"otpch.h"
+	"const.h"
+	"actions.h"
+	"tools.h"
+	"player.h"
+	"monster.h"
+	"npc.h"
+	"item.h"
+	"container.h"
+	"game.h"
+	"configmanager.h"
+	"combat.h"
+	"spells.h"
+	"house.h"
+	"beds.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\otpch.h
+	<winerror.h>
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	<libxml/threads.h>
+	<boost/config.hpp>
+	<boost/function.hpp>
+	<boost/bind.hpp>
+	<boost/regex.hpp>
+	"configmanager.h"
+	"thing.h"
+	"gui.h"
+	"inputbox.h"
+	"playerbox.h"
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\configmanager.h
+	"luascript.h"
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\luascript.h
+	"otsystem.h"
+	<lua5.1/lua.h>
+	<lua5.1/lauxlib.h>
+	<lua5.1/lualib.h>
+	<lua.h>
+	<lauxlib.h>
+	<lualib.h>
+	<luajit.h>
+	"database.h"
+	"position.h"
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\otsystem.h
+	"definitions.h"
+	<string>
+	<algorithm>
+	<bitset>
+	<queue>
+	<set>
+	<vector>
+	<list>
+	<map>
+	<limits>
+	<boost/version.hpp>
+	<boost/utility.hpp>
+	<boost/asio.hpp>
+	<boost/thread.hpp>
+	<boost/foreach.hpp>
+	<boost/shared_ptr.hpp>
+	<boost/algorithm/string/predicate.hpp>
+	<cstddef>
+	<cstdlib>
+	<cstdint>
+	<stdint.h>
+	<ctime>
+	<cassert>
+	<windows.h>
+	<sys/timeb.h>
+	<sys/timeb.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<unistd.h>
+	<netdb.h>
+	<errno.h>
+	<arpa/inet.h>
+	<netinet/in.h>
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\definitions.h
+	<cstring>
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\database.h
+	"otsystem.h"
+	"enums.h"
+	<sstream>
+	"databasemysql.h"
+	"databasemysqlpp.h"
+	"databasesqlite.h"
+	"databasepgsql.h"
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\enums.h
+	<string>
+	<list>
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\databasemysql.h
+	<mysql.h>
+	<mysql/mysql.h>
+	<winsock2.h>
+	<sstream>
+	<map>
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\databasemysqlpp.h
+	<mysql_driver.h>
+	<mysql_connection.h>
+	<cppconn/resultset.h>
+	<cppconn/exception.h>
+	<cppconn/statement.h>
+	<sstream>
+	<map>
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\databasesqlite.h
+	<sqlite3.h>
+	<sstream>
+	<map>
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\databasepgsql.h
+	"libpq-fe.h"
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\position.h
+	<stdlib.h>
+	<cmath>
+	<iostream>
+	<vector>
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\thing.h
+	"position.h"
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\gui.h
+	"definitions.h"
+	"resources.h"
+	"playerbox.h"
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\resources.h
+	"definitions.h"
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\playerbox.h
+	"otsystem.h"
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\inputbox.h
+	"otsystem.h"
+	<tchar.h>
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\const.h
+	"definitions.h"
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\actions.h
+	"baseevents.h"
+	"luascript.h"
+	"thing.h"
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\baseevents.h
+	"otsystem.h"
+	"luascript.h"
+	<libxml/parser.h>
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\tools.h
+	"otsystem.h"
+	"enums.h"
+	"const.h"
+	<libxml/parser.h>
+	<boost/tokenizer.hpp>
+	"position.h"
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\player.h
+	"otsystem.h"
+	"enums.h"
+	"creature.h"
+	"cylinder.h"
+	"container.h"
+	"depot.h"
+	"outfit.h"
+	"vocation.h"
+	"group.h"
+	"protocolgame.h"
+	"ioguild.h"
+	"party.h"
+	"npc.h"
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\creature.h
+	"otsystem.h"
+	"templates.h"
+	<boost/any.hpp>
+	"const.h"
+	"enums.h"
+	"map.h"
+	"condition.h"
+	"creatureevent.h"
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\templates.h
+	"otsystem.h"
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\map.h
+	"tools.h"
+	"fileloader.h"
+	"position.h"
+	"waypoints.h"
+	"tile.h"
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\fileloader.h
+	"otsystem.h"
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\waypoints.h
+	"otsystem.h"
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\tile.h
+	<boost/shared_ptr.hpp>
+	"cylinder.h"
+	"item.h"
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\cylinder.h
+	"otsystem.h"
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\item.h
+	"otsystem.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"thing.h"
+	"itemattributes.h"
+	"items.h"
+	"raids.h"
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\itemattributes.h
+	"otsystem.h"
+	<boost/any.hpp>
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\items.h
+	"otsystem.h"
+	"itemloader.h"
+	"const.h"
+	"enums.h"
+	"position.h"
+	<libxml/parser.h>
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\itemloader.h
+	"fileloader.h"
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\raids.h
+	"otsystem.h"
+	"const.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"baseevents.h"
+	"position.h"
+	"tools.h"
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\condition.h
+	"otsystem.h"
+	"const.h"
+	"enums.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"fileloader.h"
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\creatureevent.h
+	"enums.h"
+	"baseevents.h"
+	"tile.h"
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\container.h
+	"otsystem.h"
+	"cylinder.h"
+	"item.h"
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\depot.h
+	"container.h"
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\outfit.h
+	"otsystem.h"
+	"enums.h"
+	"const.h"
+	"tools.h"
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\vocation.h
+	"otsystem.h"
+	"enums.h"
+	"const.h"
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\group.h
+	"otsystem.h"
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\protocolgame.h
+	"otsystem.h"
+	"enums.h"
+	"protocol.h"
+	"creature.h"
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\protocol.h
+	"otsystem.h"
+	"connection.h"
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\connection.h
+	"otsystem.h"
+	"networkmessage.h"
+	<boost/utility.hpp>
+	<boost/enable_shared_from_this.hpp>
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\networkmessage.h
+	"otsystem.h"
+	"const.h"
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\ioguild.h
+	"otsystem.h"
+	"enums.h"
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\party.h
+	"player.h"
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\npc.h
+	"templates.h"
+	"const.h"
+	"creature.h"
+	"luascript.h"
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\monster.h
+	"otsystem.h"
+	"monsters.h"
+	"raids.h"
+	"tile.h"
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\monsters.h
+	"otsystem.h"
+	"creature.h"
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\game.h
+	"otsystem.h"
+	"enums.h"
+	"templates.h"
+	"server.h"
+	"scheduler.h"
+	"map.h"
+	"spawn.h"
+	"item.h"
+	"player.h"
+	"npc.h"
+	"monster.h"
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\server.h
+	"otsystem.h"
+	"connection.h"
+	<boost/enable_shared_from_this.hpp>
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\scheduler.h
+	"otsystem.h"
+	"dispatcher.h"
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\dispatcher.h
+	"otsystem.h"
+	<boost/function.hpp>
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\spawn.h
+	"otsystem.h"
+	"templates.h"
+	"position.h"
+	"tile.h"
+	"monster.h"
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\combat.h
+	"otsystem.h"
+	"baseevents.h"
+	"condition.h"
+	"map.h"
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\spells.h
+	"otsystem.h"
+	"enums.h"
+	"player.h"
+	"luascript.h"
+	"baseevents.h"
+	"actions.h"
+	"talkaction.h"
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\talkaction.h
+	"otsystem.h"
+	"enums.h"
+	"player.h"
+	"tools.h"
+	"luascript.h"
+	"baseevents.h"
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\house.h
+	"otsystem.h"
+	<boost/regex.hpp>
+	<tr1/unordered_set>
+	<boost/tr1/unordered_set.hpp>
+	"position.h"
+	"housetile.h"
+	"player.h"
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\housetile.h
+	"tile.h"
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\beds.h
+	"item.h"
+
+1393783326 source:e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\baseevents.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	"baseevents.h"
+	"tools.h"
+
+1393783326 source:e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\beds.cpp
+	"otpch.h"
+	"beds.h"
+	"house.h"
+	"player.h"
+	"iologindata.h"
+	"game.h"
+	"configmanager.h"
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\iologindata.h
+	"otsystem.h"
+	"database.h"
+	"creature.h"
+	"player.h"
+	"account.h"
+	"group.h"
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\account.h
+	"otsystem.h"
+
+1393783326 source:e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\chat.cpp
+	"otpch.h"
+	"chat.h"
+	"player.h"
+	"iologindata.h"
+	"configmanager.h"
+	"game.h"
+
+1393783326 e:\nueva carpeta (3)\rl map 7.60\globaltibiaface7.60\sources\chat.h
+	"otsystem.h"
+	<fstream>
+	"const.h"
+	"party.h"
+
